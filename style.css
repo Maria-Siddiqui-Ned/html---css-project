@@ -1,0 +1,140 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+                /* headre tag style */
+header{
+    position: relative;
+}
+.nav-top{
+    height: 3vh;
+    display: flex;
+    background-color: #696868;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 1em;
+    font-weight: 800;
+}
+.nav-top i{
+    size: 0px;
+    padding: 0px 5px;
+    
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    background-image: linear-gradient(#24252A, black);
+    opacity: 86%;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+                     
+                      /* logo style */
+
+.logo{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-left: 80px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+                              /* links style */
+.navbar a{
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 30px;
+    color: white;
+}
+.links{
+    display: flex;
+    align-items: center;
+    
+}
+.links ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 0px;
+    margin: 15px;
+}
+
+.links ul li:hover{
+    background-color: #517248;
+    border-radius: 5px;
+    
+}
+.links i{
+    font-size: 0.8em;
+    margin-right: 6px;
+    
+}
+
+                           /* nested links style */
+.submenu{
+    display: none;
+}
+
+.links ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(#24252A, black);
+    opacity: 86%;
+    margin-top: 15px;
+    margin-left: -2px;
+}
+.links ul li:hover .submenu ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.links ul li:hover .submenu ul li{
+    width: 150px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    
+}
+
+.links ul li:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+
+.links ul li:hover .submenu ul li a:hover{
+    color: #b2ff00;
+}
+
+                                   /* button style */
+                                   
+button {
+    background-color: #517248;
+    border: none;
+    color: white;
+    padding: 10px 0px;
+    margin: 0px 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    
+
+
+}
+button:hover{
+    color: black;
+    background-color: #729b67;
+}
+
+
+                        /* Responsive */
+                        
+
+
+ 
