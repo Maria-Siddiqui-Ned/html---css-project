@@ -1,99 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Mobile Mall</title>
-    <link rel="icon" type="image/x-icon" href="mobile.svg">
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+    <!-- header starts here -->
+    <header>
+        <div class="nav-top">
+            <div class="contact"><i class="fa-solid fa-phone"></i>+92xxxxxxxx</div>
+            <div class="email"><i class="fa-solid fa-envelope"></i>abc@company.com</div>
+            <div class="address"><i class="fa-solid fa-location-dot"></i>xyz,Pakistan</div>
+        </div>
+        <!-- navbar starts here -->
 
-<!-- product-section starts -->
+        <nav>
+            <div class="logo">logo </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn"><i class="fa fa-bars"></i></i></label>
+            <ul>
+                <li><a class="active" href="#"><i class="fa-solid fa-home"></i>home</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i>about</a></li>
+                <li><a href="#"><i class="fa-brands fa-servicestack"></i>services</a></li>
+                <li><a href="#"><i class="fa-brands fa-envira"></i>gallery</a></li>
+                <li><a href="#"><i class="fa-solid fa-comment"></i>feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner" data-aos="zoom-in">
+        <h2>hurry up!</h2>
+        <h3>SPECIAL</h3>
+        <h1>OFFER</h1>
+        <h4>ON MOBILE PHONES</h4>
+        <h5>Up to 70% off</h5>
+    </section>
+    <section>
+        <div class="about">
+            <h1 data-aos="zoom-in">about us</h1><img src="https://images.wsj.net/im-649412/?width=1278&size=1" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore delectus soluta dolore neque ex ratione autem ipsum eos veniam deserunt molestiae nisi consequatur laborum iure obcaecati dolorem illo non perferendis.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- product-section starts -->
 <section>
-<div class="product-section">
+    <div class="product-section">
+        
+        <!-- Latest Mobiles starts-->
+        <h2>Latest Mobiles</h2>
+        <div class="box">
+            <div class="product-flex-container">
+                <div class="product" data-aos="zoom-in"  data-aos-duration="1000">
+                    <a href="#"><img src="images/mobiles/samsung-galaxy-s23-ultra-pakistan-priceoye-kn3sm-270x270.webp" alt=""></a>
+                    <h4>Samsung Galaxy S23 Ultra</h4>
+                    <p>Rs. 517,999</p>
+                    <p class="discount"><s>Rs. 560,000</s> (8% OFF)</p>
+                    <a class="product-btn" href="#">Order Now</a>
+                </div>
+        
+                <div class="product" data-aos="zoom-in"  data-aos-duration="1000">
+                    <a href="#"><img src="images/mobiles/infinix-hot-12-play-pakistan-priceoye-1sinx-270x270.webp" alt=""></a>
+                    <h4>Infinix Hot 12 Play</h4>
+                    <p>Rs. 38,999</p>
+                    <p class="discount"><s>Rs. 43,999</s> (11% OFF)</p>
+                    <a class="product-btn" href="#">Order Now</a>
+                </div>
+        
+                <div class="product" data-aos="zoom-in"  data-aos-duration="1000">
+                    <a href="#"><img src="images/mobiles/samsung-galaxy-a73-pakistan-priceoye-1y28r-270x270.webp" alt=""></a>
+                    <h4>Samsung Galaxy A73</h4>
+                    <p>Rs. 155,999</p>
+                    <p class="discount"><s>Rs. 170,500</s> (9% OFF)</p>
+                    <a class="product-btn" href="#">Order Now</a>
+                </div>
+        
+                <div class="product" data-aos="zoom-in"  data-aos-duration="1000">
+                    <a href="#"><img src="images/mobiles/samsung-galaxy-a33-pakistan-priceoye-ylulk-270x270.webp" alt=""></a>
+                    <h4>Samsung Galaxy A33 5G</h4>
+                    <p>Rs. 98,299</p>
+                    <p class="discount"><s>Rs. 112,500</s> (13% OFF)</p>
+                    <a class="product-btn" href="#">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <p><a href="#" style="float: right; margin-bottom: 6rem;">View All</a></p>
     
-    <!-- Latest Mobiles starts-->
-    <h2>Latest Mobiles</h2>
-	<div class="box">
-		<div class="product-flex-container">
-			<div class="product" data-aos="zoom-in"  data-aos-duration="1000">
-				<a href="#"><img src="images/mobiles/samsung-galaxy-s23-ultra-pakistan-priceoye-kn3sm-270x270.webp" alt=""></a>
-				<h4>Samsung Galaxy S23 Ultra</h4>
-				<p>Rs. 517,999</p>
-				<p class="discount"><s>Rs. 560,000</s> (8% OFF)</p>
-				<a class="product-btn" href="#">Order Now</a>
-			</div>
-	
-			<div class="product" data-aos="zoom-in"  data-aos-duration="1000">
-				<a href="#"><img src="images/mobiles/infinix-hot-12-play-pakistan-priceoye-1sinx-270x270.webp" alt=""></a>
-				<h4>Infinix Hot 12 Play</h4>
-				<p>Rs. 38,999</p>
-				<p class="discount"><s>Rs. 43,999</s> (11% OFF)</p>
-				<a class="product-btn" href="#">Order Now</a>
-			</div>
-	
-			<div class="product" data-aos="zoom-in"  data-aos-duration="1000">
-				<a href="#"><img src="images/mobiles/samsung-galaxy-a73-pakistan-priceoye-1y28r-270x270.webp" alt=""></a>
-				<h4>Samsung Galaxy A73</h4>
-				<p>Rs. 155,999</p>
-				<p class="discount"><s>Rs. 170,500</s> (9% OFF)</p>
-				<a class="product-btn" href="#">Order Now</a>
-			</div>
-	
-			<div class="product" data-aos="zoom-in"  data-aos-duration="1000">
-				<a href="#"><img src="images/mobiles/samsung-galaxy-a33-pakistan-priceoye-ylulk-270x270.webp" alt=""></a>
-				<h4>Samsung Galaxy A33 5G</h4>
-				<p>Rs. 98,299</p>
-				<p class="discount"><s>Rs. 112,500</s> (13% OFF)</p>
-				<a class="product-btn" href="#">Order Now</a>
-			</div>
-		</div>
-</div>
-	<p><a href="#" style="float: right; margin-bottom: 6rem;">View All</a></p>
-</div>
-<!-- Latest Mobiles ends-->
-
- <!-- Latest tablets starts-->
- <h2>Latest Tablets</h2>
- <div class="box">
-	 <div class="product-flex-container">
-		 <div class="product" data-aos="zoom-in"  data-aos-duration="1000">
-			 <a href="#" class="tab-img"><img src="images/tablets/Alcatel-TAB-8052-Tkee-Mini-Smart-7-Yellow.png" alt=""></a>
-			 <h5>Alcatel TAB 8052 Tkee Mini Smart 7 inches (Kids Wifi Only) (16GB + 1GB)</h5>
-			 <p>Rs.14,700</p>
-			 <a class="product-btn" href="#">Order Now</a>
-		 </div>
- 
-		 <div class="product" data-aos="zoom-in"  data-aos-duration="1000">
-			 <a href="#"  class="tab-img"><img src="images/tablets/Nokia-T20-Deep-Ocean-1.jpg" alt=""></a>
-			 <h5>Nokia T20 Wi-Fi (Deep Ocean 32GB + 3GB)</h5>
-			 <p>Rs.40,000</p>
-			 <a class="product-btn" href="#">Order Now</a>
-		 </div>
- 
-		 <div class="product" data-aos="zoom-in"  data-aos-duration="1000">
-			 <a href="#"  class="tab-img"><img src="images/tablets/Samsung-Galaxy-Galaxy-Tab-A8-WiFi-Gray-1.jpg" alt=""></a>
-			 <h5>Samsung Galaxy Tab A8 10.5 (2021) Wi-Fi SM-X200 (Gray 32GB + 3GB)</h5>
-			 <p>Rs.55,000</p>
-			 <a class="product-btn" href="#">Order Now</a>
-		 </div>
- 
-		 <div class="product" data-aos="zoom-in"  data-aos-duration="1000">
-			 <a href="#"  class="tab-img"><img src="images/tablets/Samsung-Galaxy-Galaxy-Tab-A8-WiFi-Pink-Gold-1.jpg" alt=""></a>
-			 <h5>Samsung Galaxy Tab A8 10.5 (2021) Wi-Fi SM-X200 (Pink Gold 32GB + 3GB)</h5>
-			 <p>Rs.55,000</p>
-			 <a class="product-btn" href="#">Order Now</a>
-		 </div>
-	 </div>
-</div>
- <p><a href="#" style="float: right;">View All</a></p>
-</div>
-<!-- Latest tablets ends-->
-
- <!-- Shop by Brand starts -->
+    <!-- Latest Mobiles ends-->
+    <!-- Shop by Brand starts -->
  <div class="brands">
 	<h2>Shop by Brand</h2>
 	<div class="brand-parent" >
@@ -112,10 +118,13 @@
 </div>
 <!-- Shop by Brand ends -->
 <!-- product-section ends -->
+</div>
+</section>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-
-</section>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
