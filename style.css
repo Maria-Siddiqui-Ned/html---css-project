@@ -98,7 +98,7 @@
             display: block;
         }
         nav {
-            width: 97vw;
+            width: 94vw;
         }
         nav .logo img {
             width: 75px;
@@ -107,7 +107,7 @@
             cursor: pointer;
         }
         .nav-top {
-            width: 97%;
+            width: 94vw;
         }
         nav ul {
             position: fixed;
@@ -117,7 +117,7 @@
             height: 100vh;
             backdrop-filter: blur(15px);
             overflow: hidden;
-            width: 100%;
+            width: 93%;
             display: block;
             text-align: center;
             transition: all 0.3s ease;
@@ -336,11 +336,11 @@
     
     @media (min-width:320px)and (max-width:480px) {
         .banner {
-            width: 480px;
+            width: 447px;
             height: 65vh;
         }
         .about {
-            width: 480px;
+            width: 447px;
             height: 65vh;
         }
     }
