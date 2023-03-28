@@ -458,9 +458,15 @@
     .banner{
         width: 100%;
     }
-    .about{
-        width: 91vw;
+        .container2{
+		width:80%;
     }
+	    content-section{
+		    width:100%;
+	    }
+.image-sectiom{
+	width:100%;
+	    }
 }
 /* 1025px — 1200px: Desktops, large screens. */
     
